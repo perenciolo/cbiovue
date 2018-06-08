@@ -1,0 +1,124 @@
+/** Variables*/
+
+$color-primary: #232323;
+$color-primary-light: #dd7e4e;
+$color-primary-dark: #602000;
+$color-secondary: #ff8600;
+$color-secondary-dark: #bdb29d;
+$color-grey-light-0: #fafafa;
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+$color-grey-dark-0: #3F3F3F;
+$color-grey-dark-1: #303030;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+$color-white: white;
+$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+$shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+$line: 1px solid $color-grey-light-2;
+/***/
+
+/** Fixers */
+
+$hundred-px: 100px;
+/***/
+
+/** Breakpoints*/
+
+$bp-full: 118.75em; // 1900px
+$bp-largest-1680: 105em; // 1600px
+$bp-largest-1600: 100em; // 1600px
+$bp-largest-1440: 90em; // 1440px
+$bp-largest: 85.375em; // 1366px
+$bp-large-1280: 80em; // 1280px
+$bp-large: 68.75em; // 1100px
+$bp-medium-1024: 64em; // 1024px
+$bp-medium: 56.25em; // 900px
+$bp-iphone-x-height: 50em; // 800px
+$bp-small: 46.25em; // 740px
+$bp-x-small: 37.5em; // 600px
+$bp-smallest-plus-1: 31.25em; // 500px
+$bp-smallest-plus: 26.875em; // 430px
+$bp-smallest: 25em; // 400px
+$bp-smallest-375: 23.4375em; // 375px
+$bp-m-smallest: 22.5em; // 360px
+$bp-x-smallest: 21.25em; // 340px
+/***/
+
+// Site Base Path
+$base-path: "/ich/SiteAssets";
+/***/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-grey-dark-2;
+  min-width: 40rem;
+  background-color: #fafafa;
+}
+
+span[id^="zz14_Menu_t"] {
+  display: none;
+}
+
+#pageStatusBar[class] {
+  margin-bottom: 0;
+}
+
+.ms-webpartzone-cell {
+  margin: 0;
+}
+
+#s4-workspace {
+  overflow: initial;
+  position: initial;
+  background: $color-grey-light-0;
+  height: inherit !important;
+}
+
+#s4-bodyContainer {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button {
+  padding: initial;
+}
+
+.primary,
+#main .primary {
+  background-color: $color-primary !important;
+  border-color: $color-primary !important;
+  &--text {
+    color: $color-primary !important;
+  }
+}
+
+.bg-primary {
+  background-color: $color-primary !important;
+}

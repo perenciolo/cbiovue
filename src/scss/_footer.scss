@@ -1,0 +1,8 @@
+.theme--light {
+  & .footer {
+    &>.primary {
+      background-color: $color-primary !important;
+    }
+    font-size: 1.2rem;
+  }
+}

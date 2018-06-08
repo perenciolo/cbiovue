@@ -1,0 +1,299 @@
+.theme--light {
+  & .btn {
+    color: white;
+  }
+  & .toolbar {
+    background-color: lighten($color: rgba($color-primary, 0.9), $amount: 1%);
+    border-bottom: 4px solid lighten($color: rgba($color-primary, 0.9), $amount: 1%);
+    z-index: 3000;
+    @media only screen and (min-width: $bp-smallest) {}
+    @media only screen and (min-width: $bp-x-small) {}
+    @media only screen and (min-width: $bp-large-1280) {
+      transition: all 1s ease;
+    }
+  }
+  & .navigation-drawer {
+    z-index: 3001;
+  }
+}
+
+.application {
+  & .theme--light.toolbar {
+    font-family: inherit;
+    background-color: rgba($color-primary, 0.85);
+    border-bottom: 4px solid $color-white;
+    @media only screen and (min-width: $bp-large-1280) {
+      transition: all 1s ease;
+    }
+  }
+  &--wrap {
+    justify-content: space-between;
+    .toolbar {
+      box-shadow: none;
+      @media only screen and (min-width: $bp-large-1280) {
+        transition: all 1s ease;
+      }
+      &__title {
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.navbar {
+  &__lg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 400;
+    padding: 1rem 0; // @media only screen and (min-width: $bp-largest) {
+    //   padding: 0rem 0;
+    // }
+    & .toolbar__content {
+      display: initial;
+      &> :not(.btn):not(.menu):last-child:not(:only-child),
+      &> :not(.btn):not(.menu):last-child:not(:only-child) {
+        margin-right: initial;
+      }
+    }
+  }
+  &__absolute {
+    position: absolute;
+    transition: all 1s !important;
+    & .toolbar__content {
+      max-width: 95%;
+      margin: auto;
+      height: inherit !important;
+      position: relative;
+    }
+    &--scrolled {
+      position: fixed;
+      padding: 0 !important;
+      @media only screen and (min-width: $bp-large-1280) {
+        padding:.65rem 0 !important;
+      }
+      & .btn__content {
+        font-size: 1rem;
+      }
+    }
+  }
+  &__fixed {
+    // @media only screen and (min-width: $bp-large) {
+    //   padding: 4rem 0;
+    // }
+    & .toolbar__content {
+      max-width: 95%;
+      margin: auto;
+      @media only screen and (min-width: $bp-large-1280) {
+        transition: all 1s ease;
+      }
+    }
+  }
+  &__logo {
+    max-width: 45%;
+    text-align: center; // @media only screen and (min-width: $bp-largest) {
+    //   max-width: 40%;
+    // }
+  }
+  &__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+    align-items: center;
+    &.scroll-active {
+      margin-right: 1.5rem;
+      margin-top: 2rem;
+    } // &--before {
+    //   & div:not(:last-child) {
+    //     margin-right: 3rem;
+    //   }
+    // }
+    &--before {
+      & div {
+        margin-top: .1rem;
+      }
+    }
+  }
+}
+
+.nav {
+  &-tools {
+    &__items {
+      &:hover,
+      &:link,
+      &:focus,
+      &:visited {
+        background-color: transparent !important;
+        will-change: initial !important;
+        box-shadow: initial !important;
+        color: white;
+      }
+      &.btn {
+        width: inherit;
+        padding: inherit;
+        margin: inherit;
+        display: inherit;
+      }
+      background-color: transparent !important;
+      will-change: initial !important;
+      box-shadow: initial !important;
+      color: white;
+    }
+  }
+}
+
+.primary--text input {
+  border: none;
+  outline: none;
+}
+
+.redes {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  & .input-group__input {
+    background: $color-white;
+  }
+  &__instagram {
+    text-align: center;
+  }
+  &__facebook {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  &__busca {
+    // display: none; // DESATIVADO ATÉ A FUNCIONALIDADE BUSCA SER ATIVADA
+    text-align: center;
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: center;
+    & .icon {
+      color: $color-white;
+    }
+    &--wrapper {
+      // display: none;
+    }
+  }
+  &--scrolled {
+    flex-direction: row;
+    margin: 0;
+    right: 0;
+    align-items: flex-end;
+    & .input-group--single-line {
+      position: absolute;
+      right: 0;
+      transform: translateY(-1rem);
+      background: $color-white;
+    }
+    & .input-group__input {
+      background: $color-white;
+    }
+    & .redes {
+      &__facebook,
+      &__instagram,
+      &__busca {
+        text-align: center;
+        margin: 0;
+        flex-basis: 30%;
+      }
+    }
+    & .redes__instagram img {
+      width: 2rem;
+    }
+    & .redes__facebook img {
+      width: 3rem;
+    }
+  }
+}
+
+.dialog {
+  &__content {
+    z-index: 3010 !important;
+  }
+  & .toolbar.toolbar--card.theme--dark.primary {
+    background-color: $color-primary !important;
+    border-color: $color-primary !important;
+  }
+  &__search {
+    &-card {
+      margin: 1.5rem;
+      min-height: 29%;
+    }
+    &-item {
+      :not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+    &-wrapper {
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-box {
+      font-size: 1.4rem;
+      color: $color-grey-dark-1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-basis: 100%;
+      @media only screen and (min-width: $bp-small) {
+        flex-basis: 23%;
+      }
+    }
+    &-link,
+    &-link:link,
+    &-link:active,
+    &-link:hover {
+      font-weight: bolder;
+      color: $color-primary;
+    }
+  }
+}
+
+.theme--light .pagination__item--active {
+  background: $color-primary !important;
+}
+
+// ICH
+.header {
+  &__bg {
+    position: relative;
+  }
+  &__box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    background: rgba($color-grey-light-0, .8);
+    font-size: 2rem;
+    align-items: center;
+    padding: .5rem;
+    color: darken($color: $color-grey-dark-2, $amount: 10%);
+  }
+  &__sigla {
+    font-size: 4rem;
+    margin: 0 .5rem 0 4rem;
+    padding-right: .5rem;
+    border-right: 1px solid $color-primary;
+  }
+  &__text {
+    text-align: left;
+    line-height: 1.05;
+  }
+}

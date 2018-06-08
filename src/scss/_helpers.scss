@@ -1,0 +1,204 @@
+.is {
+  &--link {
+    cursor: pointer;
+    &--primary,
+    &--primary {
+      color: $color-primary;
+      text-decoration: none;
+      transition: all 0.5s ease-in;
+      &:hover,
+      &:visited,
+      &:link {
+        color: $color-primary;
+        text-decoration: none;
+        font-weight: bolder;
+      }
+      &:link {
+        font-weight: initial;
+      }
+    }
+  }
+  &__bg {
+    &--transparent {
+      background-color: transparent !important;
+    }
+  }
+  &__flex {
+    &--center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__width {
+    &--25 {
+      max-width: 25%;
+    }
+    &--17 {
+      max-width: 17%;
+    }
+  }
+  &__no {
+    &--pad {
+      padding: 0;
+    }
+  }
+}
+
+.has {
+  &__scroll {
+    opacity: 1 !important;
+  }
+}
+
+.btn {
+  &__content {
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    &:before {
+      border-radius: inherit;
+      color: inherit;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0; //height: 4.5rem;
+      opacity: 0.12; // padding-bottom: 2px;
+      transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+      width: 100%;
+    }
+  }
+  &:focus {
+    .btn__content:before {
+      opacity: 0;
+    }
+  }
+  &__active {
+    & .btn__content {
+      &:before {
+        background: $color-white;
+      }
+    }
+  }
+  &__index {
+    z-index: 3002 !important;
+  }
+}
+
+.img {
+  &__title {
+    width: 25%;
+    @media only screen and (min-width: $bp-smallest-375) {
+      width: 20%;
+    }
+  }
+  &-fluid {
+    max-width: 100%;
+  }
+}
+
+.brasao {
+  margin-top: 2rem;
+}
+
+.corner {
+  position: absolute;
+  min-height: 3rem;
+  min-width: 5rem;
+  background: url(#{$base-path}/img/cantoneira.svg) no-repeat;
+  background-size: contain;
+  &--top {
+    right: -4.5rem;
+    top: 0.5rem;
+    transform: rotateZ(90deg);
+    transform-origin: top;
+    transform-box: border-box;
+    transform-style: preserve-3d;
+  }
+  &--bottom {
+    right: -2rem;
+    bottom: -5rem;
+    transform: rotateZ(180deg);
+    transform-origin: top;
+    transform-box: border-box;
+    transform-style: preserve-3d;
+  }
+}
+
+.dialog {
+  &__card {
+    background-color: $color-grey-light-0 !important;
+    &--text {
+      font-size: 2rem;
+    }
+    & .toolbar {
+      padding: 1rem 0;
+    }
+  }
+}
+
+.page {
+  &__tilte {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: -2%;
+    @media only screen and (min-width: $bp-x-small) {
+      margin-top: 40rem;
+      margin-bottom: -3rem;
+    }
+    @media only screen and (min-width: $bp-x-small) and (min-height: $bp-small) {
+      margin-top: 10rem;
+    }
+    @media only screen and (min-width: $bp-medium-1024) {
+      margin-top: 40rem;
+    }
+    @media only screen and (min-width: $bp-large-1280) {
+      margin-top: 13rem;
+    }
+    @media only screen and (min-width: $bp-largest) {
+      margin-top: 6rem;
+    }
+    @media only screen and (min-width: $bp-largest-1440) {
+      margin-top: 15rem;
+    }
+    @media only screen and (min-width: $bp-full) {
+      margin-top: 25rem;
+    }
+  }
+}
+
+.cantoneiras {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  &__left {
+    min-height: 3rem;
+    background: url(#{$base-path}/img/cantoneira.svg) no-repeat;
+    background-size: contain;
+    flex-basis: 50%;
+  }
+  &__right {
+    min-height: 3rem;
+    background: url(#{$base-path}/img/cantoneira.svg) no-repeat;
+    background-size: contain;
+    flex-basis: 50%;
+    transform: rotate(180deg) rotateX(180deg);
+  }
+  &__upsidedown {
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    .cantoneiras {
+      &__left {
+        transform: initial;
+        flex-basis: 50%;
+      }
+      &__right {
+        transform: rotate(180deg) rotateX(180deg);
+        flex-basis: 50%;
+      }
+    }
+  }
+}

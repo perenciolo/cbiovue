@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": [
+          "Chrome >= 50",
+          "FireFox >= 40",
+          "Safari >= 7",
+          "Explorer >= 10",
+          "last 4 Edge versions"
+        ]
+      }
+    }],
+    "stage-3"
+  ]
+}

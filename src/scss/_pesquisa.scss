@@ -1,0 +1,12 @@
+.pesquisa {
+  background-color: $color-white;
+  &__pesquisador {
+    & .list__tile {
+      font-weight: bold;
+    }
+  }
+  & .list__tile {
+    height: auto;
+    min-height: 12rem;
+  }
+}

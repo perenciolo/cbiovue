@@ -1,0 +1,12 @@
+.banner {
+  & .card__media__background {
+    @media only screen and (max-width: $bp-largest-1680) {
+      background-size: contain !important;
+    }
+  }
+  & .card__text {
+    @media only screen and (max-width: $bp-medium) {
+      padding: 0;
+    }
+  }
+}
