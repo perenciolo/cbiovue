@@ -4,10 +4,10 @@ var webpack = require('webpack')
 module.exports = {
   entry: ['babel-polyfill', './src/main.js'],
   output: {
-    path: path.resolve(__dirname, './ich/SiteAssets'),
-    publicPath: '/ich/SiteAssets/',
+    path: path.resolve(__dirname, './cienciasbiologicas/SiteAssets'),
+    publicPath: '/cienciasbiologicas/SiteAssets/',
     // Troque o filename com base no módulo desejado
-    filename: 'pesquisa.js'
+    filename: 'graduacao.js'
   },
   module: {
     rules: [{
@@ -99,8 +99,8 @@ if (process.env.NODE_ENV === 'development') {
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: "'development'",
-        BASE_PATH: "'/ich'",
-        SITE_ASSETS: "'/ich/'",
+        BASE_PATH: "'/cienciasbiologicas'",
+        SITE_ASSETS: "'/cienciasbiologicas/SiteAssets'",
         API_DOMAIN: "'./src/data'",
         ROOT_API_DOMAIN: "'./src/data'",
         /** HEADER */
@@ -108,6 +108,8 @@ if (process.env.NODE_ENV === 'development') {
         SOCIAL_MEDIA: '"/Web/Lists/getByTitle(\'RedesSociais\')/items"',
         SOCIAL_MEDIA_QUERY: "'?$select=Id,Title,Instagram'",
         /** MASTER */
+        PAGINAS: '"/paginas"',
+        PAGINAS_QUERY: '".json"',
         ARTE_LAZER_CULTURA: "'/arte-lazer-cultura'",
         ARTE_LAZER_CULTURA_QUERY: "'.json'",
         ARTE_LAZER_CULTURA_ITEM: "'.json'",
@@ -146,19 +148,16 @@ if (process.env.NODE_ENV === 'production') {
       'process.env': {
         NODE_ENV: '"production"',
         ROOT_API_DOMAIN: "'/_api'",
-        BASE_PATH: "'/ich'",
-        SITE_ASSETS: "'/ich/SiteAssets/'",
-        API_DOMAIN: "'/ich/_api'",
+        BASE_PATH: "'/cienciasbiologicas'",
+        SITE_ASSETS: "'/cienciasbiologicas/SiteAssets/'",
+        API_DOMAIN: "'/cienciasbiologicas/graduacao/_api'",
         /** HEADER */
         NAV_QUERY: '"/navigation/menustate?mapprovidername=\'GlobalNavigationSwitchableProvider\'"',
         SOCIAL_MEDIA: '"/Web/Lists/getByTitle(\'RedesSociais\')/items"',
         SOCIAL_MEDIA_QUERY: "'?$select=Id,Title,Instagram'",
         /** MASTER */
-        ARTE_LAZER_CULTURA: '"/Web/Lists(\'7A60B8FA-4CED-4B9D-9461-2486B3F264FC\')/items"',
-        ARTE_LAZER_CULTURA_QUERY: '"?$filter=Status ne \'Inativo\'&$select=Id,Title,Status,Ordem,ArteLazerLinkDestino,AbrirNovaPagina,FileRef,EncodedAbsUrl,FileDirRef"',
-        ARTE_LAZER_CULTURA_ITEM: '"/FieldValuesAsHtml?$filter=Status ne \'Inativo\'&$select=Id,Title,Status,Ordem,ArteLazerLinkDestino,AbrirNovaPagina,FileRef,EncodedAbsUrl,FileDirRef,PublishingPageImage"',
-        ACONTECE: '"/Web/Lists/getByTitle(\'Acontece\')/items"',
-        ACONTECE_QUERY: '"?$select=Id,Title,Tema,Inscricoes,Ordem&$orderBy=Ordem desc&$top=3"',
+        PAGINAS: '"/Web/Lists/getByTitle(\'Páginas\')/items"',
+        PAGINAS_QUERY: '""',
         /** FOOTER */
         REDES_SOCIAIS: '"/Web/Lists/getByTitle(\'RedesSociais\')/items"',
         REDES_SOCIAIS_QUERY: '"?$select=Id,Title,AbrirNovaPagina,UrlAbrirNovaJanela,Exibir&$filter=Exibir eq 1"',

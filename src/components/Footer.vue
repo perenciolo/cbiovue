@@ -1,33 +1,34 @@
 <template>
-  <v-footer height="auto">
-    <v-card
-      flat
-      tile
-      class="primary white--text text-xs-center"
-    >
-      <v-card-text>
-        <span  v-for="icon in socialMedia" :key="icon.ID">
-          <v-btn
-            v-if="icon.Exibir === true"
-            icon
-            class="mx-3 white--text"
-            @click.prevent="goToPage(icon.UrlAbrirNovaJanela, icon.AbrirNovaPagina === 'Sim'? true: null)"
-          >
-            <v-icon size="24px">{{ icon.icon }}</v-icon>
-          </v-btn>
-        </span>
-      </v-card-text>
-      <v-card-text class="white--text pt-0 text-xs-center" style="width:100vw">
-        Avenida Dom José Gaspar, 500
-        Coração Eucarístico
-        Belo Horizonte - Minas Gerais
-        (31) 3319-4444
-      </v-card-text>
-      <v-card-text class="white--text">
-        &copy; {{now}} — <strong>PUC Minas</strong>
-      </v-card-text>
-    </v-card>
-  </v-footer>
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="box">
+            <h3>Fale conosco</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6" id="white">
+          <div class="box">
+            <div class="info">
+              <p>
+                Av. Dom José Gaspar, 500 - Coração Eucarístico - Belo Horizonte - MG
+              </p>
+              <p>
+                <span>CEP:</span> 30535-901
+              </p>
+              <p>
+                <span>Telefone:</span> (31) 3319-4157
+              </p>
+              <p>
+                <span>Email:</span>
+                <a href="mailto:ciencias@pucminas.br">ciencias@pucminas.br</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
@@ -37,17 +38,17 @@ import {
   activateRoute,
   handleError,
   helperAxios
-} from "../helpers/helpers";
+} from '../helpers/helpers';
 export default {
   data() {
     return {
       scrollPosition: false,
       icons: [
-        "fa fa-facebook-square",
-        "fa fa-instagram",
-        "fa fa-twitter-square",
-        "fa fa-google-plus-square",
-        "fa fa-linkedin-square"
+        'fa fa-facebook-square',
+        'fa fa-instagram',
+        'fa fa-twitter-square',
+        'fa fa-google-plus-square',
+        'fa fa-linkedin-square'
       ],
       socialMedia: []
     };
@@ -65,11 +66,11 @@ export default {
     }
   },
   created() {
-    window.addEventListener("scroll", this.handleScroll);
-    this.getSocialMedia();
+    window.addEventListener('scroll', this.handleScroll);
+    // this.getSocialMedia();
   },
   destroyed() {
-    window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
     handleScroll() {
@@ -87,42 +88,42 @@ export default {
       )
         .then(response => {
           const icons = {
-            facebook: "fa fa-facebook-square",
-            instagram: "fa fa-instagram",
-            twitter: "fa fa-twitter-square",
-            googleplus: "fa fa-google-plus-square",
-            linkedin: "fa fa-linkedin-square"
+            facebook: 'fa fa-facebook-square',
+            instagram: 'fa fa-instagram',
+            twitter: 'fa fa-twitter-square',
+            googleplus: 'fa fa-google-plus-square',
+            linkedin: 'fa fa-linkedin-square'
           };
           response.data.d.results.forEach(element => {
-            if (accentsTidy(element["Title"]) === "facebook") {
+            if (accentsTidy(element['Title']) === 'facebook') {
               element = {
                 ...element,
                 icon: icons.facebook
               };
               vm.socialMedia.push(element);
             }
-            if (accentsTidy(element["Title"]) === "instagram") {
+            if (accentsTidy(element['Title']) === 'instagram') {
               element = {
                 ...element,
                 icon: icons.instagram
               };
               vm.socialMedia.push(element);
             }
-            if (accentsTidy(element["Title"]) === "twitter") {
+            if (accentsTidy(element['Title']) === 'twitter') {
               element = {
                 ...element,
                 icon: icons.twitter
               };
               vm.socialMedia.push(element);
             }
-            if (accentsTidy(element["Title"]) === "googleplus") {
+            if (accentsTidy(element['Title']) === 'googleplus') {
               element = {
                 ...element,
                 icon: icons.googleplus
               };
               vm.socialMedia.push(element);
             }
-            if (accentsTidy(element["Title"]) === "linkedin") {
+            if (accentsTidy(element['Title']) === 'linkedin') {
               element = {
                 ...element,
                 icon: icons.linkedin

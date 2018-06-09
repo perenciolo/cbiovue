@@ -1,10 +1,5 @@
 import Vue from 'vue'
 
-// Vuetify Support
-import Vuetify from 'vuetify'
-
-Vue.use(Vuetify)
-
 import App from './App.vue'
 
 

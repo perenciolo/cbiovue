@@ -3,13 +3,13 @@
     <div class="row align-items-center justify-content-center">
       <div class="col-xs-12 col-md-4">
         <div class="internas__onca-container d-flex justify-content-center">
-          <img class="img-fluid internas__onca" [src]="oncaXS" alt="">
+          <img class="img-fluid internas__onca" :src="oncaXS" alt="">
         </div>
       </div>
       <div class="col-xs-12 col-md-8">
         <figure class="internas__title">
           <svg class="internas__title-brasao">
-            <use attr.xlink:href="{{brasaoBranco}}"></use>
+            <use v-bind:xlink:href="brasaoBranco"></use>
           </svg>
           <div class="internas__title-text">
             <a href="#" class="internas__title-text--link">
@@ -27,9 +27,7 @@
 import axios from 'axios';
 
 export default {
-  components: {
-    appDialog: Dialog
-  },
+  components: {},
   data() {
     return {
       clipped: true,
@@ -43,7 +41,8 @@ export default {
       facebookIcon: process.env.SITE_ASSETS + 'img/facebook.svg',
       instagramIcon: process.env.SITE_ASSETS + 'img/instagram.svg',
       logoBranco: process.env.SITE_ASSETS + 'img/logo__arq--branco.svg',
-      brasaoBranco: process.env.SITE_ASSETS + 'img/brasao-branco.svg',
+      brasaoBranco: process.env.SITE_ASSETS + '/img/sprites.svg#icon-pucminas',
+      oncaXS: process.env.SITE_ASSETS + '/img/oncaxs.png',
       title: '',
       scrollPosition: false,
       facebookUrl: '#',
@@ -73,7 +72,7 @@ export default {
   created() {
     window.addEventListener('scroll', this.handleScroll);
     // GET Navigation Items
-    this.getNavigation(this.apiUrl.domain + this.apiUrl.navigationQuery);
+    // this.getNavigation(this.apiUrl.domain + this.apiUrl.navigationQuery);
   },
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll);

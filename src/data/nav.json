@@ -1,1 +1,430 @@
-{"d":{"MenuState":{"__metadata":{"type":"SP.MenuState"},"FriendlyUrlPrefix":"","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"AuthoredLinkPlain","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"aec26135-f48f-4a7a-b286-20c56fdbf5d6,2002","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ich?SPNavigationNodeId=2002","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich","Title":"Home"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Page","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"f14c8084-225a-43d4-9f16-f27491e9dadd,2003","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ICH/PAGINAS/APRESENTACAO.ASPX","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/Paginas/apresentacao.aspx","Title":"Apresenta\u00e7\u00e3o"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Page","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"c539e69c-63b8-4711-aebe-8023e72e6913,2004","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ICH/PAGINAS/HISTORIA.ASPX","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/Paginas/Historia.aspx","Title":"Hist\u00f3ria"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Area","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"64926eea-9df7-45f5-99f5-1a66aef90e20,2005","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ICH/CURSOS","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/cursos","Title":"Cursos"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Area","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"7127704a-504c-4122-b994-bffb4396d69c,2006","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ICH/PESQUISA","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/pesquisa","Title":"Pesquisa"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Page","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"b568393d-d473-4d5a-bfde-87474d837ec8,2007","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ICH/PAGINAS/PROGRAMASEPROJETOS.ASPX","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/Paginas/ProgramaseProjetos.aspx","Title":"Programas e Projetos"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Page","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"2884e8dc-adf4-45fd-8b42-25574928dee4,2008","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ICH/PAGINAS/PUBLICACOES.ASPX","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/Paginas/Publicacoes.aspx","Title":"Publica\u00e7\u00f5es"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Page","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"2369de36-9f9d-4abd-ba66-933576d23cee,2009","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":false,"Key":"/ICH/PAGINAS/CONTATO.ASPX","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/Paginas/Contato.aspx","Title":"Contato"},{"CustomProperties":{"results":[{"__metadata":{"type":"SP.KeyValue"},"Key":"NodeType","Value":"Area","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Description","Value":"","ValueType":"Edm.String"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Target","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"Audience","Value":null,"ValueType":"Null"},{"__metadata":{"type":"SP.KeyValue"},"Key":"QuickId","Value":"11121edc-c617-43ae-8647-a2ee09d203d6,2010","ValueType":"Edm.String"}]},"FriendlyUrlSegment":"","IsHidden":true,"Key":"/ICH/HISTORIA","Nodes":{"__metadata":{"type":"Collection(SP.MenuNode)"},"results":[]},"NodeType":0,"SimpleUrl":"/ich/historia","Title":"Hist\u00f3ria"}]},"SimpleUrl":"/ich/Paginas/default.aspx","SPSitePrefix":"/","SPWebPrefix":"/ich","StartingNodeKey":"1002","StartingNodeTitle":"Instituto de Ci\u00eancias Humanas","Version":"2018-05-22T19:58:25.3692212Z"}}}
+{
+  "d": {
+    "MenuState": {
+      "__metadata": {
+        "type": "SP.MenuState"
+      },
+      "FriendlyUrlPrefix": "",
+      "Nodes": {
+        "__metadata": {
+          "type": "Collection(SP.MenuNode)"
+        },
+        "results": [{
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "Page",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "e08cfe5c-4270-4cdd-9da2-1f3642b7f034,2002",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/CIENCIASBIOLOGICAS/GRADUACAO/PAGINAS/CURSO.ASPX",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/Curso.aspx",
+          "Title": "O Curso"
+        }, {
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "Page",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "ff3f85a7-1336-4c7f-b741-b445d6d9c058,2003",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/CIENCIASBIOLOGICAS/GRADUACAO/PAGINAS/CORPODOCENTE.ASPX",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/corpodocente.aspx",
+          "Title": "Corpo Docente"
+        }, {
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "Page",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "d15407e3-d182-4b5d-9e63-053c55e99136,2004",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/CIENCIASBIOLOGICAS/GRADUACAO/PAGINAS/MATRIZCURRICULAR.ASPX",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/matrizcurricular.aspx",
+          "Title": "Matriz Curricular"
+        }, {
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "AuthoredLinkPlain",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": "_blank",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "8010a620-80d8-4faf-ae19-6c0f43b5a81c,2005",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/cienciasbiologicas/graduacao?SPNavigationNodeId=2005",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "http://was.sistemas.pucminas.br/Generico/RelatorioGenerico.jsp",
+          "Title": "Grade de Hor\u00e1rios"
+        }, {
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "Page",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "ce23c361-d027-4d74-863c-420a8533124c,-72",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/CIENCIASBIOLOGICAS/GRADUACAO/PAGINAS/BACHARELADO.ASPX",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/bacharelado.aspx",
+          "Title": "bacharelado"
+        }, {
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "Page",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "be6cd1b0-fbcb-418e-9b06-91cf8981fabe,-73",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/CIENCIASBIOLOGICAS/GRADUACAO/PAGINAS/LICENCIATURA.ASPX",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/licenciatura.aspx",
+          "Title": "A Licenciatura"
+        }, {
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "Page",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "f8e11b26-5cb7-452b-abd8-fc94759ad40c,-74",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/CIENCIASBIOLOGICAS/GRADUACAO/PAGINAS/ACGS.ASPX",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/acgs.aspx",
+          "Title": "Atividades Complementares de Gradua\u00e7\u00e3o (ACGs)"
+        }, {
+          "CustomProperties": {
+            "results": [{
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "NodeType",
+              "Value": "Page",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Description",
+              "Value": "",
+              "ValueType": "Edm.String"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Target",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "Audience",
+              "Value": null,
+              "ValueType": "Null"
+            }, {
+              "__metadata": {
+                "type": "SP.KeyValue"
+              },
+              "Key": "QuickId",
+              "Value": "481733ae-793e-4dc2-aa43-769873fa7592,-75",
+              "ValueType": "Edm.String"
+            }]
+          },
+          "FriendlyUrlSegment": "",
+          "IsHidden": false,
+          "Key": "/CIENCIASBIOLOGICAS/GRADUACAO/PAGINAS/EGRESSOS.ASPX",
+          "Nodes": {
+            "__metadata": {
+              "type": "Collection(SP.MenuNode)"
+            },
+            "results": []
+          },
+          "NodeType": 0,
+          "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/egressos.aspx",
+          "Title": "Perfil dos Egressos"
+        }]
+      },
+      "SimpleUrl": "/cienciasbiologicas/graduacao/Paginas/default.aspx",
+      "SPSitePrefix": "/",
+      "SPWebPrefix": "/cienciasbiologicas/graduacao",
+      "StartingNodeKey": "1002",
+      "StartingNodeTitle": "Gradua\u00e7\u00e3o",
+      "Version": "2017-11-22T13:56:35.6272293Z"
+    }
+  }
+}
